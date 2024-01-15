@@ -38,8 +38,20 @@
         <div class="input-container">
           <form action="">
             <input class="banner-input" type="text" placeholder="Where go" />
-            <input class="banner-input" type="text" placeholder="When" />
-            <input class="banner-input" type="text" placeholder="Select Type" />
+            <select required class="banner-input">
+              <option value="" disabled selected hidden>When</option>
+              <option>Morning</option>
+              <option>Night</option>
+              <option>Evening</option>
+              <option>Afternoon</option>
+            </select>
+            <select required class="banner-input">
+              <option value="" disabled selected hidden>Select Type</option>
+              <option>Flight</option>
+              <option>Bus</option>
+              <option>Train</option>
+              <option>Boat</option>
+            </select>
             <button class="banner-btn">
               <i class="fa-solid fa-magnifying-glass"></i>Find Now
             </button>
