@@ -888,4 +888,32 @@ font-size: 20px;
 font-weight: 700;
 line-height: 30px;
 }
+.sixth{
+    flex-direction: column;
+    max-width: calc(600px - 20px);
+    margin: auto;
+    padding: 20px;
+}
+.form-conatiner{
+    width: 80%;
+}
+.sixth-form input,.subscribe-btn{
+    width: 330px;
+    height: 52px;
+}
+.tag-container{
+    text-align: center;
+    width: 214px;
+    height: 79px;
+    transform: rotate(-19.628deg);
+    padding: 5px;
+    left: 190px;
+    top:-140px;
+
+}
+.tag-container>p, .tag-container>h3{
+    font-size: 21.138px;
+}
+
+
 }
