@@ -202,19 +202,19 @@ line-height: normal;
 .row2 .three>p  {
     position: absolute;
     z-index: 1;
-     top: 45%;
+     top: 50%;
      left:10%;
 }
 .row2 .four>p  {
     position: absolute;
     z-index: 1;
-     top: 45%;
+     top: 50%;
      left:45%;
 }
 .row2 .five>p  {
     position: absolute;
     z-index: 1;
-     top: 45%;
+     top: 50%;
      left:85%;
 }
 .row1 div>p , .row2 div>p, .row3 div>p  {
@@ -235,21 +235,7 @@ line-height: normal;
      top: 80%;
      left:65%;
 }
-/* .row1{
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   gap: 24px;
-}
-.row2{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   gap: 24px;
-}
- .row3{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 24px;
- } */
+
   
  .second-sec-title{
 color: #131318;
@@ -268,16 +254,98 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 } 
-/* .center{
-    position:relative;
-    left: 40%;
-    top: -50%;
-    color: #FFF;
-font-size: 28px;
+
+/* third section */
+
+.third{
+   
+        margin: 10px 120px;
+
+}
+.third-title{
+color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
 font-weight: 800;
 line-height: normal;
- 
-} */
+}
+.third-p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-top: 24px; 
+}
+.feedback-container{
+    align-items: center;
+    
+}
+.feedback-container{
+    display: flex;
+    gap: 24px;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.hotel{
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+flex-shrink: 0;
+padding: 32px;
+}
+.hotel img ,.service img{
+    padding: 16px 0px;
+}
+
+.best-price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    flex-shrink: 0;    
+    padding: 32px;
+      
+}
+.best-price img{
+    padding: 16px 0px;
+}
+
+
+.service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    flex-shrink: 0;    
+    padding: 32px;
+}
+.third-img-title{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.third-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 486px;    
+}
+
+
+
+
+
+
+
   
 
 
@@ -425,5 +493,25 @@ flex-shrink: 0;
    .one>p, .two>p ,.three>p , .four>p , .five>p , .six>p , .seven>p{
     display: none;
    }
-   
+
+ /* problem   ................*/
+  
+.third{
+    align-items: center;
+
+}
+.third-p{
+    /* width: 300px; */
+   border: 2px solid red;
+   width: 90%;
+ 
+}
+   .hotel, .service , .best-price{
+    width: 340px;
+height: 289px;
+flex-shrink: 0;
+   }
+   .third-description{
+    width: 271px;
+   }
 }
