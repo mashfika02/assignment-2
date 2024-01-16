@@ -533,12 +533,109 @@ font-weight: 700;
 line-height: 26px; 
 margin-bottom: 30px;
 }
+/* sixth section */
 
+.sixth{
+    display: flex;
+    margin: 100px 120px;
+    gap: 24px;
+    height: 422px;
+    
+}
+.sixth-form{
+    display: block;
+    border-radius:0px ;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+hr{
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.10);
+}
+.sixth-form>input{
+    width: 380px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+padding: 5px;
 
-
-
-
+}
+.subscribe-btn{
+    border-radius: 8px;
+    border: none;
+    background: #FF5400; 
+    width: 393px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal; 
+    margin-top: 0px;   
+ 
+}
+.sixth-img img{
+  width: 100%;
   
+ 
+}
+.tag-container{
+    border-radius: 16px;
+    background: #FF5400;
+     width: 40%; 
+    padding: 20px;
+     transform: rotate(-19.628deg); 
+    z-index: 1;  
+     position: relative;
+     top: -160px;
+     left: 350px;
+    
+    
+}
+.tag-container>p{
+color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+.tag-container>h3{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: normal;    
+}
+
+.form-conatiner{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 40px ;
+
+}
+
+.form-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;    
+}
+.form-p{
+color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-top: 20px;
+}
+
+
+
+
+
+
 
 
 
