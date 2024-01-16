@@ -164,7 +164,94 @@ line-height: normal;
 .second{
     margin: 100px 120px;
 }
-.second-sec-title{
+ .destination-container{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+    gap: 24px; 
+    align-items: center;
+    margin-top: 40px;
+}
+.destination-container .row1{
+    display: flex;
+    gap: 24px;
+}
+.destination-container .row2{
+    display: flex;
+    gap: 24px;
+}
+.destination-container .row3{
+    display: flex;
+    gap: 24px;
+}
+.destination-container{
+    position: relative;
+}
+.row1 .one>p  {
+    position: absolute;
+    z-index: 1;
+     top: 15%;
+     left: 20%;
+}
+.row1 .two>p  {
+    position: absolute;
+    z-index: 1;
+     top: 15%;
+     left:70%;
+}
+.row2 .three>p  {
+    position: absolute;
+    z-index: 1;
+     top: 45%;
+     left:10%;
+}
+.row2 .four>p  {
+    position: absolute;
+    z-index: 1;
+     top: 45%;
+     left:45%;
+}
+.row2 .five>p  {
+    position: absolute;
+    z-index: 1;
+     top: 45%;
+     left:85%;
+}
+.row1 div>p , .row2 div>p, .row3 div>p  {
+color: #FFF;
+font-size: 28px;
+font-weight: 800;
+line-height: normal;
+} 
+.row3 .six>p  {
+    position: absolute;
+    z-index: 1;
+     top: 80%;
+     left:12%;
+}
+.row3 .seven>p  {
+    position: absolute;
+    z-index: 1;
+     top: 80%;
+     left:65%;
+}
+/* .row1{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 24px;
+}
+.row2{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 24px;
+}
+ .row3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+ } */
+  
+ .second-sec-title{
 color: #131318;
 text-align: center;
 font-size: 40px;
@@ -180,8 +267,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
-}
-
+} 
+/* .center{
+    position:relative;
+    left: 40%;
+    top: -50%;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+line-height: normal;
+ 
+} */
+  
 
 
 
@@ -309,4 +406,17 @@ font-size: 20px;
 font-weight: 800;
 margin-bottom: 20px;
     }
+
+
+    .destination-container{
+         
+        flex-direction: column;
+        /* grid-template-rows: repeat(1,1fr); */
+        
+    }
+    .row1, .row2, .row3{
+      flex-direction: column;
+    }
+   
+
 }
