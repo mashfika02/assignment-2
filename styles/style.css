@@ -417,6 +417,13 @@ margin-bottom: 20px;
     .row1, .row2, .row3{
       flex-direction: column;
     }
+   .row1 img ,.row2 img,.row3 img{
+width: 335px; 
+height: 176px;
+flex-shrink: 0;
+   }
+   .one>p, .two>p ,.three>p , .four>p , .five>p , .six>p , .seven>p{
+    display: none;
+   }
    
-
 }
