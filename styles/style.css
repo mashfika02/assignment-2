@@ -465,6 +465,8 @@ margin-top: 16px;
 } 
 
 
+
+
   
 
 
@@ -621,7 +623,6 @@ flex-shrink: 0;
 }
 .third-p{
     /* width: 300px; */
-   border: 2px solid red;
    width: 90%;
  
 }
